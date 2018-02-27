@@ -1,6 +1,6 @@
 function reverseString(str) {
   var arr = str.split("");
-  
+
   var ptr1 = 0;
   var ptr2 = arr.length-1;
 
@@ -14,4 +14,6 @@ function reverseString(str) {
 
   return arr.join("");
 }
-console.log(reverseString("hello"));
+
+var inputString = 'building';
+console.log(reverseString(inputString));

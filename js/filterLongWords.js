@@ -7,4 +7,4 @@ function filterLongWords(array) {
   console.log(maxLength);
 }
 
-filterLongWords(['hello','my','name','alethea']);
+filterLongWords(['hello','my','name','is','alethea']);

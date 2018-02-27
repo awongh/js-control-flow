@@ -4,7 +4,7 @@ function grade(score) {
   var grade;
   switch(true) {
     case score > 100:
-        grade = "Invalid input!";
+        grade = "There's no way your score could be that high!";
         break;
     case score >= 90:
         grade = "A";

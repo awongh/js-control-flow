@@ -1,6 +1,6 @@
 function phoneBook(pb) {
-  for (var thing in pb) {
-    if (pb[thing] === "333-333-3333") console.log(thing);
+  for (var entry in pb) {
+    if (pb[entry] === "333-333-3333") console.log(entry);
   }
 }
 
