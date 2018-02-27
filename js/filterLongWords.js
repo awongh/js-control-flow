@@ -1,9 +1,12 @@
 function filterLongWords(array) {
   var maxLength = 4;
   var new_array = [];
-  for (var word in array) {
+
+  array.forEach(function(word) {
     if (word.length < maxLength) new_array.push(word);
-  }
+  });
+
+  console.log(new_array);
   console.log(maxLength);
 }
 
