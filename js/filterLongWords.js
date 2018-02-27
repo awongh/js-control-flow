@@ -1,13 +1,13 @@
-function filterLongWords(arr) {
-  var maxLength = 0;
+function filterLongWords(arr, maxLength) {
+  var final_arr = [];
   arr.forEach(function(element) {
-    if (element.length > maxLength) {
-      maxLength = element.length;
+    if (element.length < maxLength) {
+      final_arr.push(element);
     };
   });
-  return maxLength;
+  return final_arr;
 }
 
 input = ['wer', 'ewrevale', 'awewe', 'nmlekr']
 
-console.log(filterLongWords(input));
+console.log(filterLongWords(input, 8));
