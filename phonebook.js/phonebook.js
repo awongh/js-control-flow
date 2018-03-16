@@ -27,19 +27,8 @@ var phoneBook = {
   "Zed": "111-111-1111"
 };
 
-var sameNumber = function (n)
-{
-	var newArray = [];
-	for (var numbers in phoneBook)
-	{
-		console.log( 333-333-3333)
-		console.log( phoneBook[numbers] === 333-333-3333 )
-		console.log( phoneBook[number] )
-		if (phoneBook[numbers] === 333-333-3333)
-		{ 
-			newArray.push(numbers); 
-		}
-	}	
-	return newArray;
-};
-console.log(sameNumber(phoneBook));
+for (var names in phoneBook) {
+  if (phoneBook[names] === "333-333-3333") {
+    console.log(names);
+  }
+}
